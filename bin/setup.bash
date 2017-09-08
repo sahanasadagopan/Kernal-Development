@@ -13,5 +13,5 @@ sudo ./bash_profile
 #building the kernel again
 sudo git clone https://github.com/sahanasadagopan/Kernal-Development.git
 sudo /home/"$USER"/Kernal-Development/bin/build_kernel
-sudo /home/"$USER"/Kernal-Development/bin/./utils.bash > config.txt
+sudo /home/"$USER"/Kernal-Development/bin/./info.bash > config.txt
  
