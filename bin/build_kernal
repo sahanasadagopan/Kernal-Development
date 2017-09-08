@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+import os
+import sys
+
+for arg in sys.argv:
+    print("Ensure to already download the stable version or the version of kernal needed in the Downloads folder")
+#updating the kernal
+    os.system("sudo apt-get update")
+#copying the old kernal build 
+    os.system("cp /boot/config-$(uname -r) .config")
+#To get the latest kernal
+    os.system("~/Downloads")
+    os.system("tar -xvzf linux-4.12.10.tar.gz")
+    os.system("cd /linux-4.12.10")
+#to make necessary changes if possible
+    os.system("make menuconfig")
+#compile and install all the modules
+    os.system("sudo make -j 4 && sudo make modules_install -j 4 && sudo make install -j 4")
