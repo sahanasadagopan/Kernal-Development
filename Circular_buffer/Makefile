@@ -1,3 +1,5 @@
+#@author Sahana Sadagopan
+# Credits to Sam Siewert
 INCLUDE_DIRS = 
 LIB_DIRS = 
 
