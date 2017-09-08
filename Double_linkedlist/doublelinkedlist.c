@@ -32,10 +32,8 @@ static uint32_t count=0;
 **************************************************************************/
 
 enum status delete(struct Node** head){
-	printf("delete\n");
 	struct Node* temp = malloc(sizeof(struct Node));
 	temp =*head;
-	printf("%d\n",temp->next);
 	if(temp->next != NULL){
 	    while (*head=temp)
 		{
@@ -43,7 +41,6 @@ enum status delete(struct Node** head){
 			temp=temp->next;
 		}
 	}
-
     return success;
      
 
@@ -59,11 +56,7 @@ enum status delete(struct Node** head){
 enum status remove_node(struct Node** head,uint32_t index){
 
 	struct Node* temp=*head;
-	printf("head data %d ",(*head)->data);
 	struct Node* current=temp;
-	printf("%d\n",index );
-
-
 	if(temp==NULL){
         printf("empty list\n");
         return failure;
@@ -83,8 +76,6 @@ enum status remove_node(struct Node** head,uint32_t index){
         	*head=temp;
 	    }
     }
-	printf("list %d ",(current)->data);
-	printf("%d\n", (current->next)->data);
 	return success;
 }
 
@@ -100,9 +91,6 @@ enum status add_node(struct Node** head,uint32_t data,uint32_t index)
 	struct Node* newnode = malloc(sizeof(struct Node));
 	struct Node* temp = *head;
     struct Node* permanent =temp;
-    printf("reached \n");
-    printf("%d\n",index );
-    printf("%d\n",count);
     if(index==0){
 	    if(index==count){
 			newnode->data=data;
@@ -113,14 +101,10 @@ enum status add_node(struct Node** head,uint32_t data,uint32_t index)
 			*head=temp;
 			
 			count++;
-			printf("%d \n",temp->data );
-			printf("%d \n",(*head)->data);
-			printf("done \n");
 		}
 		else{
 			 temp=temp->next;
 			 count++;
-			 printf("else \n");
 			 add_node(&temp,data,index);
 			}
 	}
@@ -134,8 +118,6 @@ enum status add_node(struct Node** head,uint32_t data,uint32_t index)
 		temp->next=newnode;
 		*head=current;
 	}
-    printf("%d ",(*head)->data);
-    printf("%d \n",((*head)->next)->data);
     return success;
 
     
@@ -151,28 +133,20 @@ enum status add_node(struct Node** head,uint32_t data,uint32_t index)
 uint32_t search(struct Node** head,uint32_t data){
 	static uint32_t position =0;
 	struct Node* temp=malloc(sizeof(struct Node));
-	printf("%d\n",((*head)->next)->data );
 	if(head==NULL){
 		printf("Linked list empty \n");
 		
 	}
 	temp=*head;
-	printf("1st data%d\n",temp->data );
 	while(temp!=NULL){
-		printf("1st data%d\n",temp->data );
-		printf("needed data%d\n",data );
 		if(data==temp->data){
-			printf("search found\n");
-			printf("position found%d\n",position );
 			break;
 			
 		}
 		else
 		{
-			printf("position %d\n",position);
 			temp=temp->next;
 			position++;
-			printf("position %d\n",position);
 		}
 	}
 	return position;
@@ -202,10 +176,8 @@ uint32_t size(struct Node** head){
 
 void main(){
 
-	struct Node **head= malloc(sizeof(struct Node));
-	struct Node **headinit= head ;
+	struct Node *head= malloc(sizeof(struct Node));
     uint32_t placeholder=0;
-    printf("hi \n");
     add_node(&head,1,placeholder);
     placeholder=1;
     add_node(&head,3,placeholder);
