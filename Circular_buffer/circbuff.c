@@ -4,32 +4,40 @@
 #include <stdint.h>
 #include <stdlib.h>
 circbuff *buffer=NULL;
+
+/**************************************************************************
+*   Function - allocate
+*   Parameters - double pointer 
+*   Returns - status
+*   Purpose - Initialises the buffer and the structure in dynamic memory
+**************************************************************************/
+
 enum status allocate(circbuff **init_buffer){
-	//initialised the struct and allocated memory dynamically
-	circbuff* allocbuff;
-	init_buffer = (circbuff**)malloc(sizeof(circbuff*));
-	allocbuff=(circbuff*)malloc(sizeof(circbuff));
+	buffer=(circbuff*)malloc(sizeof(circbuff));
 	printf("Enter the size of your buffer\n");
-	scanf("%d",&(allocbuff->sizebuff));
-	uint32_t* size = (uint32_t*)malloc(sizeof(uint32_t)*(allocbuff->sizebuff));
-    buffer=allocbuff;
+	scanf("%d",&(buffer->sizebuff));
+	uint32_t* size =NULL;
+	size= (uint32_t*)malloc(sizeof(uint32_t)*(buffer->sizebuff));
 	if(size==0){
 		printf("Not allocated any space\n");
 		return failure;
 	}
 	else{
-		//buffer->sizebuff=size;
-		//printf("allocating\n");
 		buffer->head=size;
-		//printf("allocating\n");
 		buffer->tail=size;
 		buffer->buffer=size;
 		*init_buffer=buffer;
 		return success;
-
 	}
-
+	
 }
+
+/**************************************************************************
+*   Function - destroy
+*   Parameters - Double pointer buffer
+*   Returns - status 
+*   Purpose - Destroys the buffer completely and the values inside the buffer is NULL
+**************************************************************************/
 
 enum status destroy(circbuff **init_buffer){
 	allocate(init_buffer);
@@ -37,7 +45,14 @@ enum status destroy(circbuff **init_buffer){
 	return success;
 }
 
-bool buff_full(circbuff *buffer)
+/**************************************************************************
+*   Function - ls_buff_full
+*   Parameters - buffer ptr
+*   Returns - boolean 
+*   Purpose - checks if the buffer is full
+**************************************************************************/
+
+bool ls_buff_full(circbuff *buffer)
 {
     if(buffer->num_elements==buffer->sizebuff)
     {
@@ -45,7 +60,15 @@ bool buff_full(circbuff *buffer)
     }
     else return false;
 }
-bool buff_empty(circbuff *buffer)
+
+/**************************************************************************
+*   Function -ls_buff_empty
+*   Parameters - buffer ptr
+*   Returns - boolean
+*   Purpose - checks if the buffer is empty
+**************************************************************************/
+
+bool ls_buff_empty(circbuff *buffer)
 {
 	if(buffer->num_elements<1)
 		return true;
@@ -53,45 +76,74 @@ bool buff_empty(circbuff *buffer)
 		return false;
 }
 
-enum status add(circbuff **init_buffer, uint32_t additem){
-	buffer=*init_buffer;
-	bool buffercheck=buff_full(buffer);
-	if(buffercheck){
-		buffer->head=buffer->buffer;
-		*buffer->head=additem;	
-		return success;
-	}
-	else
-		return failure;
+/**************************************************************************
+*   Function - add
+*   Parameters - double pointer buffer and elemt to add
+*   Returns - status 
+*   Purpose - Adds the element to the head of the buffer and it wraps around if the buffer is full
+**************************************************************************/
 
+enum status add(circbuff **init_buffer, uint32_t additem){
+	buffer= *init_buffer;
+	circbuff* allocbuffer=buffer;
+	bool buffercheck=ls_buff_full(buffer);
+	if(buffercheck){
+		printf("buffer full wrapping around\n");
+		buffer->num_elements=0;
+		buffer->head=buffer->buffer;
+	}
+		*buffer->head=additem;
+		*init_buffer=allocbuffer;
+		(*init_buffer)->head=allocbuffer->head;
+		(*init_buffer)->num_elements=buffer->num_elements;
+		buffer->head++;	
+		buffer->num_elements++;
+		
+		printf("%d\n",buffer->num_elements );
+		
+		return success;
 }
 
+/**************************************************************************
+*   Function - delete
+*   Parameters - Double pointer buffer
+*   Returns - status 
+*   Purpose - Delets the element through a pointer at a given point
+**************************************************************************/
+
 enum status delete(circbuff **init_buffer){
-	buffer=*init_buffer;
-	bool buffercheck=buff_empty(buffer);
+	printf("deleting item\n");
+	bool buffercheck=ls_buff_empty(buffer);
 	uint32_t removed=0;
 	if(buffercheck) 
 		return failure;
 	else{
-		//
 		removed= *buffer->tail;
+		printf("removed element:%d\n",removed );
 		buffer->tail++;
 		buffer->num_elements--;
-		printf("now pointer at location:%d\n",removed );
 		return success;
 	}
 }
 
-enum status dump(circbuff *buffer)
+/**************************************************************************
+*   Function - dump
+*   Parameters - Double pointer buffer
+*   Returns - status 
+*   Purpose - Prints the buffer value 
+**************************************************************************/
+
+enum status dump(circbuff **init_buffer)
 {
-	if(buffer==NULL){
+	uint32_t* allocbuffer=buffer->tail;
+	if(allocbuffer==NULL){
 		printf("Buffer is empty\n");
 		return failure;
 	}
 	else{
 		for(int i=0;i<buffer->num_elements;i++){
-			printf("The %d buffer element is:%d",i,*buffer->head);
-	        buffer->head++;
+			printf("The %d buffer element is:%d\n",i,*allocbuffer);
+	        allocbuffer++;
 		}
 		return success;
 	}
@@ -99,14 +151,14 @@ enum status dump(circbuff *buffer)
 
 int main()
 {
-	circbuff *initbuffer;
-    allocate(&initbuffer);
-    uint32_t size=0;
-    for(int i=0;i<size;i++){
-    	add(&initbuffer,i);
-	}
+	circbuff *initbuffer=NULL;
+	allocate(&initbuffer);
+	add(&initbuffer,5);
+	add(&initbuffer,15);
+	add(&initbuffer,34);
+	dump(&initbuffer);
 	delete(&initbuffer);
-
+	dump(&initbuffer);
 	return 0;
-	
+
 }

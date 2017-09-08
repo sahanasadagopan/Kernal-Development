@@ -60,7 +60,7 @@ typedef struct
 *@return status in boolean value
 *
 */
-bool buff_full(circbuff *buffer);
+bool ls_buff_full(circbuff *buffer);
 /**
 *@brief add item given by the user
 *
@@ -79,7 +79,7 @@ enum status add_item(circbuff *buffer,uint32_t item);
 *
 *@return It returns a bool value that returns the boolean value
 */
-bool buff_empty(circbuff *buffer);
+bool ls_buff_empty(circbuff *buffer);
 /*
 *@brief delete the items in FIFO order
 *
