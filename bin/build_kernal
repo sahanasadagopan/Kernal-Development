@@ -9,6 +9,7 @@ for arg in sys.argv:
 #copying the old kernal build 
     os.system("cp /boot/config-$(uname -r) .config")
 #To get the latest kernal
+    os.system("wget https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.gz")
     os.system("~/Downloads")
     os.system("tar -xvzf linux-4.12.10.tar.gz")
     os.system("cd /linux-4.12.10")
