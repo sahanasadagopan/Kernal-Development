@@ -179,7 +179,7 @@ enum status dump(circbuff **init_buffer)
 
 uint32_t size(){
 	uint32_t size;
-	size=(buffer)->num_elements
+	size=(buffer)->num_elements;
     return size;
 }
 
