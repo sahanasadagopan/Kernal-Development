@@ -1,3 +1,23 @@
+
+/***********************************************************************************************
+* Copyright (C) 2017 Sahana Sadagopan
+*
+**Redistribution,modification or use of this software in source or binary fors is permitted as long 
+*as the files maintain this copyright.Mounika Reddy Edula is not liable for any misuse of this material
+*
+*********************************************************************************************************/
+/**
+*@file circ_buffer.h
+*@brief Circular Buffer implementation
+*
+*This C file provides how to implement circular buffer
+*
+*@author Sahana Sadagopan
+*@date September 2017
+*@version 1.0
+*
+**/
+
 #include <stdio.h>
 #include "circbuff.h"
 #include <stdbool.h>
@@ -147,6 +167,20 @@ enum status dump(circbuff **init_buffer)
 		}
 		return success;
 	}
+}
+
+/**************************************************************************
+*   Function - size
+*   Parameters - No parameters
+*   Returns - The number of elements in the circular buffer
+*   Purpose - returns the the size of elements in the buffer
+**************************************************************************/
+
+
+uint32_t size(){
+	uint32_t size;
+	size=(buffer)->num_elements
+    return size;
 }
 
 int main()
