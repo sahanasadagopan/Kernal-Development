@@ -60,8 +60,14 @@ enum status allocate(circbuff **init_buffer){
 **************************************************************************/
 
 enum status destroy(circbuff **init_buffer){
-	allocate(init_buffer);
-	free(init_buffer);
+	//allocate(init_buffer);
+	if((*init_buffer)->head=NULL){
+		printf("First allocate buffer");
+	}
+	else{
+		buffer=NULL;
+		free(buffer);
+	}
 	return success;
 }
 
@@ -192,7 +198,10 @@ int main()
 	add(&initbuffer,34);
 	dump(&initbuffer);
 	delete(&initbuffer);
+	delete(&initbuffer);
+	add(&initbuffer,89);
 	dump(&initbuffer);
+	destroy(&initbuffer);
 	return 0;
 
 }

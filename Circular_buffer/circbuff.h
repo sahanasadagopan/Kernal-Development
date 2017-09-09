@@ -48,7 +48,15 @@ typedef struct
         uint32_t sizebuff;
         uint32_t num_elements;
 }circbuff;
-
+/**
+*
+*@brief Allocating the buffer nd the buffer structure
+*
+*@param Double pointer circular buffer
+*
+*@return status if the allocation is sucessfull
+*/
+enum status allocate(circbuff **init_buffer);
 /**
 *@brief checks for buffer full condition
 * 
@@ -71,7 +79,7 @@ bool ls_buff_full(circbuff *buffer);
 *@return status
 *The status is the result that indicates if the item is added successfully
 */
-enum status add_item(circbuff *buffer,uint32_t item);
+enum status add(circbuff **init_buffer, uint32_t additem);
 /**
 *@brief the circular buffer is checked if the buffer has elements
 *
@@ -87,6 +95,21 @@ bool ls_buff_empty(circbuff *buffer);
 *
 *@return status It returns if the deleting the item was succesfull or failure
 */
-enum status del_item(circbuff *buffer);
-
+enum status delete(circbuff **init_buffer);
+/*
+*@brief size of the buffer filled
+*
+*@param No param
+*
+*@return the num of elemets filled in the buffer
+*/
+uint32_t size();
+/*
+*@brief dumps the other and the content of the buffer
+*
+*@param double ptr of circular buffer
+*
+*@return status if the print was succesful or not
+*/
+enum status dump(circbuff **init_buffer);
 #endif
