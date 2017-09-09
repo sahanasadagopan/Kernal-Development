@@ -94,6 +94,14 @@ enum status remove_node(struct Node** head,uint32_t index);
 */
 
 uint32_t search(struct Node** head,uint32_t data);
+/*
+*@brief size
+*
+*@param double ptr 
+*
+*@return usigned value of the filled linked list
+*
+*/
+uint32_t size(struct Node** head);
 
-
-#endif
+#endif /* _DOUBLELINKEDLIST_H__ */
