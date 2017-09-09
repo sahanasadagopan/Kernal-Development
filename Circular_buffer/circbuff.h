@@ -112,4 +112,4 @@ uint32_t size();
 *@return status if the print was succesful or not
 */
 enum status dump(circbuff **init_buffer);
-#endif
+#endif /* _circbuff_H__ */
