@@ -1,0 +1,942 @@
+The system is: Linux - 4.12.10 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e9ac/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7e9ac.dir/build.make CMakeFiles/cmTC_7e9ac.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e9ac.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7e9ac.dir/testCCompiler.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7e9ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e9ac.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7e9ac.dir/testCCompiler.c.o  -o cmTC_7e9ac -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa65c/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_aa65c.dir/build.make CMakeFiles/cmTC_aa65c.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa65c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_aa65c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_aa65c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa65c.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_aa65c.dir/CMakeCCompilerABI.c.o  -o cmTC_aa65c -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa65c' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJm5Tt9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_aa65c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_aa65c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_aa65c/fast"]
+  ignore line: [make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_aa65c.dir/build.make CMakeFiles/cmTC_aa65c.dir/build]
+  ignore line: [make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_aa65c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_aa65c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_aa65c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa65c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_aa65c.dir/CMakeCCompilerABI.c.o  -o cmTC_aa65c -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa65c' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJm5Tt9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_aa65c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_aa65c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJm5Tt9.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aa65c] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_aa65c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f07e5/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f07e5.dir/build.make CMakeFiles/cmTC_f07e5.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f07e5.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_f07e5.dir/feature_tests.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f07e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f07e5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f07e5.dir/feature_tests.c.o  -o cmTC_f07e5 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aaac0/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_aaac0.dir/build.make CMakeFiles/cmTC_aaac0.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aaac0.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_aaac0.dir/feature_tests.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/feature_tests.c
+Linking C executable cmTC_aaac0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaac0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_aaac0.dir/feature_tests.c.o  -o cmTC_aaac0 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54ff5/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_54ff5.dir/build.make CMakeFiles/cmTC_54ff5.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54ff5.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_54ff5.dir/feature_tests.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/feature_tests.c
+Linking C executable cmTC_54ff5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54ff5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_54ff5.dir/feature_tests.c.o  -o cmTC_54ff5 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test WITH_FPIC succeeded with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2c2a/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c2c2a.dir/build.make CMakeFiles/cmTC_c2c2a.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2c2a.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -DWITH_FPIC   -fPIC -o CMakeFiles/cmTC_c2c2a.dir/src.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c2c2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2c2a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -DWITH_FPIC    CMakeFiles/cmTC_c2c2a.dir/src.c.o  -o cmTC_c2c2a -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_STACK_PROTECTOR succeeded with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f32a9/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f32a9.dir/build.make CMakeFiles/cmTC_f32a9.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f32a9.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -DWITH_STACK_PROTECTOR   -fstack-protector -o CMakeFiles/cmTC_f32a9.dir/src.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c:1:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+                           ^
+Linking C executable cmTC_f32a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f32a9.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -DWITH_STACK_PROTECTOR    CMakeFiles/cmTC_f32a9.dir/src.c.o  -o cmTC_f32a9 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+Performing C SOURCE FILE Test WITH_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad88e/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ad88e.dir/build.make CMakeFiles/cmTC_ad88e.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad88e.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN   -fvisibility=hidden -o CMakeFiles/cmTC_ad88e.dir/src.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ad88e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad88e.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN    CMakeFiles/cmTC_ad88e.dir/src.c.o  -o cmTC_ad88e -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c350b/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c350b.dir/build.make CMakeFiles/cmTC_c350b.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c350b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_c350b.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c350b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c350b.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_c350b.dir/CheckIncludeFile.c.o  -o cmTC_c350b -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73b70/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_73b70.dir/build.make CMakeFiles/cmTC_73b70.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73b70.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_73b70.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_73b70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73b70.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_73b70.dir/CheckIncludeFile.c.o  -o cmTC_73b70 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b63cc/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b63cc.dir/build.make CMakeFiles/cmTC_b63cc.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b63cc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_b63cc.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b63cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b63cc.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_b63cc.dir/CheckIncludeFile.c.o  -o cmTC_b63cc -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d88b6/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d88b6.dir/build.make CMakeFiles/cmTC_d88b6.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d88b6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_d88b6.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d88b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d88b6.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_d88b6.dir/CheckIncludeFile.c.o  -o cmTC_d88b6 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_875d5/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_875d5.dir/build.make CMakeFiles/cmTC_875d5.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_875d5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_875d5.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_875d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_875d5.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_875d5.dir/CheckIncludeFile.c.o  -o cmTC_875d5 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f483d/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f483d.dir/build.make CMakeFiles/cmTC_f483d.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f483d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_f483d.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f483d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f483d.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_f483d.dir/CheckIncludeFile.c.o  -o cmTC_f483d -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a9d5/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4a9d5.dir/build.make CMakeFiles/cmTC_4a9d5.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a9d5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_4a9d5.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4a9d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a9d5.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_4a9d5.dir/CheckIncludeFile.c.o  -o cmTC_4a9d5 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7c4e/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d7c4e.dir/build.make CMakeFiles/cmTC_d7c4e.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7c4e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_d7c4e.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d7c4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7c4e.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_d7c4e.dir/CheckIncludeFile.c.o  -o cmTC_d7c4e -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80609/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_80609.dir/build.make CMakeFiles/cmTC_80609.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80609.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_80609.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_80609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80609.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_80609.dir/CheckIncludeFile.c.o  -o cmTC_80609 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f09e5/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f09e5.dir/build.make CMakeFiles/cmTC_f09e5.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f09e5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_f09e5.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f09e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f09e5.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_f09e5.dir/CheckIncludeFile.c.o  -o cmTC_f09e5 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a32b4/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a32b4.dir/build.make CMakeFiles/cmTC_a32b4.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a32b4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_a32b4.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a32b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a32b4.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_a32b4.dir/CheckIncludeFile.c.o  -o cmTC_a32b4 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f68b5/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f68b5.dir/build.make CMakeFiles/cmTC_f68b5.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f68b5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_f68b5.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f68b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f68b5.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_f68b5.dir/CheckIncludeFile.c.o  -o cmTC_f68b5 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_611b0/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_611b0.dir/build.make CMakeFiles/cmTC_611b0.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_611b0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_611b0.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_611b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_611b0.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_611b0.dir/CheckIncludeFile.c.o  -o cmTC_611b0 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_399cd/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_399cd.dir/build.make CMakeFiles/cmTC_399cd.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_399cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_399cd.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_399cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_399cd.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_399cd.dir/CheckIncludeFile.c.o  -o cmTC_399cd -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_466a2/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_466a2.dir/build.make CMakeFiles/cmTC_466a2.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_466a2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_466a2.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_466a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_466a2.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_466a2.dir/CheckIncludeFile.c.o  -o cmTC_466a2 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4bc2/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a4bc2.dir/build.make CMakeFiles/cmTC_a4bc2.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4bc2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_a4bc2.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a4bc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4bc2.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_a4bc2.dir/CheckIncludeFile.c.o  -o cmTC_a4bc2 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dda45/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dda45.dir/build.make CMakeFiles/cmTC_dda45.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dda45.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_dda45.dir/CheckIncludeFile.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dda45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dda45.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_dda45.dir/CheckIncludeFile.c.o  -o cmTC_dda45 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeeded with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9928a/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9928a.dir/build.make CMakeFiles/cmTC_9928a.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9928a.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC   -o CMakeFiles/cmTC_9928a.dir/src.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9928a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9928a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC    CMakeFiles/cmTC_9928a.dir/src.c.o  -o cmTC_9928a -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   (void)sizeof(((struct timespec *)0)->tv_sec);
+   return 0;
+}
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9217/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e9217.dir/build.make CMakeFiles/cmTC_e9217.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9217.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTC_e9217.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘calloc’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_e9217
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9217.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc    CMakeFiles/cmTC_e9217.dir/CheckFunctionExists.c.o  -o cmTC_e9217 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function exit exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5255e/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5255e.dir/build.make CMakeFiles/cmTC_5255e.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5255e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit   -o CMakeFiles/cmTC_5255e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exit’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_5255e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5255e.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit    CMakeFiles/cmTC_5255e.dir/CheckFunctionExists.c.o  -o cmTC_5255e -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fprintf exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52efa/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_52efa.dir/build.make CMakeFiles/cmTC_52efa.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52efa.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf   -o CMakeFiles/cmTC_52efa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fprintf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_52efa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52efa.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf    CMakeFiles/cmTC_52efa.dir/CheckFunctionExists.c.o  -o cmTC_52efa -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3103b/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3103b.dir/build.make CMakeFiles/cmTC_3103b.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3103b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTC_3103b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘free’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_3103b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3103b.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free    CMakeFiles/cmTC_3103b.dir/CheckFunctionExists.c.o  -o cmTC_3103b -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5be11/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5be11.dir/build.make CMakeFiles/cmTC_5be11.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5be11.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp   -o CMakeFiles/cmTC_5be11.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5be11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5be11.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp    CMakeFiles/cmTC_5be11.dir/CheckFunctionExists.c.o  -o cmTC_5be11 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ac67/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4ac67.dir/build.make CMakeFiles/cmTC_4ac67.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ac67.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=siglongjmp   -o CMakeFiles/cmTC_4ac67.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4ac67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ac67.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=siglongjmp    CMakeFiles/cmTC_4ac67.dir/CheckFunctionExists.c.o  -o cmTC_4ac67 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9d42/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e9d42.dir/build.make CMakeFiles/cmTC_e9d42.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9d42.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_e9d42.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_e9d42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9d42.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTC_e9d42.dir/CheckFunctionExists.c.o  -o cmTC_e9d42 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4889/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b4889.dir/build.make CMakeFiles/cmTC_b4889.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4889.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_b4889.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_b4889
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4889.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy    CMakeFiles/cmTC_b4889.dir/CheckFunctionExists.c.o  -o cmTC_b4889 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c137a/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c137a.dir/build.make CMakeFiles/cmTC_c137a.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c137a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_c137a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_c137a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c137a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTC_c137a.dir/CheckFunctionExists.c.o  -o cmTC_c137a -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function printf exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19a85/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_19a85.dir/build.make CMakeFiles/cmTC_19a85.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19a85.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf   -o CMakeFiles/cmTC_19a85.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘printf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_19a85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19a85.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf    CMakeFiles/cmTC_19a85.dir/CheckFunctionExists.c.o  -o cmTC_19a85 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_510f1/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_510f1.dir/build.make CMakeFiles/cmTC_510f1.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_510f1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_510f1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_510f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_510f1.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp    CMakeFiles/cmTC_510f1.dir/CheckFunctionExists.c.o  -o cmTC_510f1 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb375/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fb375.dir/build.make CMakeFiles/cmTC_fb375.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb375.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTC_fb375.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fb375
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb375.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal    CMakeFiles/cmTC_fb375.dir/CheckFunctionExists.c.o  -o cmTC_fb375 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsignal exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59428/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_59428.dir/build.make CMakeFiles/cmTC_59428.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59428.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal   -o CMakeFiles/cmTC_59428.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_59428
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59428.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal    CMakeFiles/cmTC_59428.dir/CheckFunctionExists.c.o  -o cmTC_59428 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd2b7/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bd2b7.dir/build.make CMakeFiles/cmTC_bd2b7.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd2b7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTC_bd2b7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcmp’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_bd2b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd2b7.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp    CMakeFiles/cmTC_bd2b7.dir/CheckFunctionExists.c.o  -o cmTC_bd2b7 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93da4/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_93da4.dir/build.make CMakeFiles/cmTC_93da4.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93da4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_93da4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93da4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93da4.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_93da4.dir/CheckFunctionExists.c.o  -o cmTC_93da4 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sprintf exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc6d1/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bc6d1.dir/build.make CMakeFiles/cmTC_bc6d1.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc6d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf   -o CMakeFiles/cmTC_bc6d1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sprintf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_bc6d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc6d1.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf    CMakeFiles/cmTC_bc6d1.dir/CheckFunctionExists.c.o  -o cmTC_bc6d1 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d529f/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d529f.dir/build.make CMakeFiles/cmTC_d529f.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d529f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_d529f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_d529f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d529f.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTC_d529f.dir/CheckFunctionExists.c.o  -o cmTC_d529f -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_GCC_THREAD_LOCAL_STORAGE succeeded with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75a2a/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_75a2a.dir/build.make CMakeFiles/cmTC_75a2a.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75a2a.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_75a2a.dir/src.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75a2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75a2a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE    CMakeFiles/cmTC_75a2a.dir/src.c.o  -o cmTC_75a2a -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+__thread int tls;
+
+int main(void) {
+    return 0;
+}
+Performing C SOURCE FILE Test HAVE_CLOCK_GETTIME_REALTIME succeeded with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_462c0/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_462c0.dir/build.make CMakeFiles/cmTC_462c0.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_462c0.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_GETTIME_REALTIME   -o CMakeFiles/cmTC_462c0.dir/src.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_462c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_462c0.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_GETTIME_REALTIME    CMakeFiles/cmTC_462c0.dir/src.c.o  -o cmTC_462c0 -rdynamic /usr/lib/x86_64-linux-gnu/librt.so 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main(void) {
+    struct timespec ts;
+
+    clock_gettime(CLOCK_REALTIME, &ts);
+
+    return 0;
+}
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2177/fast"
+make[1]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f2177.dir/build.make CMakeFiles/cmTC_f2177.dir/build
+make[2]: Entering directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2177.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_f2177.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_f2177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2177.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_f2177.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_f2177 -rdynamic 
+make[2]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sahana/Kernal-Development/3rd-party/build-Debug/cmocka/CMakeFiles/CMakeTmp'
+
+
