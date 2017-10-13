@@ -16,6 +16,7 @@ volatile sig_atomic_t status =0;
 volatile sig_atomic_t sigprint =0;
 
 pthread_t child1;
+pthread_t child2;
 /*structure for counts*/
 struct report_stat{
   int linecount;
@@ -30,18 +31,27 @@ static void int_handler(){
   scanf("%c",&ch);
   if(ch == 'y'){
     fprintf(stdout, "close program \n");
+    status = 0;
+    sigprint =0;
+    pthread_join(child1,NULL);
+    pthread_join(child2,NULL);
   }
+  exit(-1);
 }
 /*1st handler*/
 static void hdl (int sig, siginfo_t *siginfo, void *context)
 {
-  printf ("Sending PID Signal 1 is got: %ld, UID: %ld\n",(long)siginfo->si_pid, (long)siginfo->si_uid);
+  fprintf (stdout,"Sending PID Signal 1 is got: %ld, UID: %ld\n",(long)siginfo->si_pid, (long)siginfo->si_uid);
   status=1;
 }
 /*second handle*/
 static void hdl2 (int sig,siginfo_t *siginfo, void *context){
-  printf("This is signal 2 id got\n");
   sigprint =1;
+  fprintf(stdout,"This is signal 2 id got\n");
+  if(status == 0){
+    fprintf(stderr, "Signal 1 should be given first\n");
+    exit(-1);
+  }
 }
 /* THe child that prints the computation*/
 void *child2_process(void *threaddp){
@@ -59,12 +69,12 @@ void *child1_process(void *threaddp){
   char *filename = malloc(sizeof(char)*20);
   char c;
   filename = stats.filename;
-  stats.linecount=0,stats.wordcount=0,stats.charcount=0;
+  stats.linecount=-2,stats.wordcount=-3,stats.charcount=0;
   pid_t pid = getpid();
   fprintf(stdout, "pid %d\n",pid );
   FILE *rp = fopen(filename,"rb");
-  while((c=fgetc(rp))!= EOF){  
-    fprintf(stdout,"%c",c );
+  while((c=fgetc(rp))!= EOF){
+    fprintf(stdout,"%c",c );  
     if(c == '\n'){
       stats.linecount++;
     }
@@ -75,8 +85,8 @@ void *child1_process(void *threaddp){
       stats.charcount++;
     }
   }
-  fprintf(stdout, "count line %d count words %d charcount %d \n",
-              stats.linecount,stats.wordcount,stats.charcount);
+  //fprintf(stdout, "count line %d count words %d charcount %d \n",
+  //            stats.linecount,stats.wordcount,stats.charcount);
   fclose(rp);
 }
 /* THe main parent thread*/
@@ -113,6 +123,7 @@ int main (int argc, char *argv[])
   FILE *fp = fopen(filename,"wb+");
   while (status != 1 || sigprint != 1){
     fgets(msg,500,stdin);
+    //printf("%s\n",msg);
     fputs(msg,fp);
   }
   ret = fclose(fp);
@@ -121,10 +132,10 @@ int main (int argc, char *argv[])
   }
   //Two childthread created
   if((pthread_create(&child1,(void*)0,child1_process,(void *)0))==0)
-    printf("success");
+    printf("success\n");
   if((pthread_create(&child2,(void*)0,child2_process,(void *)0))==0)
   {
-    printf("success 2");
+    printf("success 2\n");
   }
   pthread_join(child1,NULL);
   pthread_join(child2,NULL);

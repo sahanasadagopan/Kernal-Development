@@ -1,0 +1,1 @@
+cmd_/home/sahana/Downloads/linux-4.12.10/drivers/Kthread_time/Kthread_time.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/sahana/Downloads/linux-4.12.10/drivers/Kthread_time/Kthread_time.ko /home/sahana/Downloads/linux-4.12.10/drivers/Kthread_time/Kthread_time.o /home/sahana/Downloads/linux-4.12.10/drivers/Kthread_time/Kthread_time.mod.o ;  true

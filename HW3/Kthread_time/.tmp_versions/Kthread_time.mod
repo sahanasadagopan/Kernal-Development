@@ -1,0 +1,3 @@
+/home/sahana/Downloads/linux-4.12.10/drivers/Kthread_time/Kthread_time.ko
+/home/sahana/Downloads/linux-4.12.10/drivers/Kthread_time/Kthread_time.o
+
