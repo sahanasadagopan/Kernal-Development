@@ -21,7 +21,7 @@ void main(){
 		printf("before sorting:%d\n",*(buffer+i) );
 	}
 	//printf("before sorting:%d\n",buffer);
-	syscall(333,buffer,size,sortbuff);
+	syscall(334,buffer,size,sortbuff);
 	//printf("%d\n",buffer);
 	for(int i=0;i<size;i++){
 		printf("The aligned order %i is %d\n",i,*(sortbuff+i) );

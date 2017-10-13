@@ -2,7 +2,7 @@
 * Copyright (C) 2017 Sahana Sadagopan
 *
 **Redistribution,modification or use of this software in source or binary fors is permitted as long 
-*as the files maintain this copyright.Mounika Reddy Edula is not liable for any misuse of this material
+*as the files maintain this copyright.Sahana Sadagopan is not liable for any misuse of this material
 *
 *********************************************************************************************************/
 /**
